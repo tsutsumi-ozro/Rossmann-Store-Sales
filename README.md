@@ -20,6 +20,12 @@
 * Open- 店舗が営業してたかどうか. 0 = closed, 1 = open
 * StateHoliday- 州の休日を表す. だいたい休日の時Open=0. a = public holiday, b = Easter holiday, c = Christmas, 0 = None
 * SchoolHoliday- 公立学校の閉鎖の影響を受けたかどうかを表す.
+
+ここまでがtrain.csv
+----------------------------------------------------------------------------------------
+ここからstore.csv
+
+
 * StoreType- 4種類のストアタイプがあるらしい. a, b, c, d
 * Assortment- 品揃えのレベルを表すらしい. a = basic, b = extra, c = extended
 * CompetitionDistance- 最寄りの競合店までの距離(メートル)
