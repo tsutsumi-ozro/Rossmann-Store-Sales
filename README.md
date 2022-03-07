@@ -6,6 +6,24 @@
 * EDA, バリデーション, アンサンブルなどの手法をぶつける
 * kaggle本を辿って本の内容、コンペの進め方を理解する
 
+
+## コンペの概要
+### データ
+時系列. trainは2015-07-31までのデータが含まれていて、testは2015-08-01からのデータとなっている. <br>
+バリデーションとかに注意しないとリークが起こる可能性が高い.<br>
+testにはCustomersとSalesがない
+### 評価指標
+RMSPE- kaggle本に載ってない. sklearnのmoduleにないのかな？⇨ない(絶望)<br>
+自分で関数定義して使うしかないらしい(先人の知恵を借りよう)
+
+## 仮説
+### データを見て率直に感じたこと<br>
+Trainのカラムは基本的に重要. storeはAssortment, CompetitionDistance, Promoが重要っぽそう.<br>
+
+## 方針
+[公開ノートブック(score:0.3)](https://www.kaggle.com/ashwathbalaji/rossmann-store-sales)を基準にkaggle本を読みながら改良<br>
+もうきついなあと思ったら上位のノートブックを参照して参考にする.
+
 ## Data
 ### Files
 * train.csv - historical data including sales
@@ -50,4 +68,8 @@ storeはtrainとStoreを共通キーにして結合するべきって感じ.<br>
 storeはいくつか空欄がある⇨読み込み時にnaにしとくべき<br>
 PromoIntervalはちょっと処理しづらそう→とりあえず解除して良さそうで、notebookの扱い方とかを参考にした方がいい.
 
+## kaggle日記
+**20220307**<br>
+生データを確認してkaggl本でリークとか評価指標とか読んだ.<br>
+0から単純なモデルを組もうとしたけど失敗. 大人しくnotebookを読むと決意.
 
