@@ -73,3 +73,6 @@ PromoIntervalはちょっと処理しづらそう→とりあえず解除して�
 生データを確認してkaggl本でリークとか評価指標とか読んだ.<br>
 0から単純なモデルを組もうとしたけど失敗. 大人しくnotebookを読むと決意.
 
+**20220308**<br>
+[公開notebook](https://www.kaggle.com/omarelgabry/a-journey-through-rossmann-stores)をBaselineにすることを
+決定
