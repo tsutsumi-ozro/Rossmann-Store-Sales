@@ -74,5 +74,12 @@ PromoIntervalはちょっと処理しづらそう→とりあえず解除して�
 0から単純なモデルを組もうとしたけど失敗. 大人しくnotebookを読むと決意.
 
 **20220308**<br>
-[公開notebook](https://www.kaggle.com/omarelgabry/a-journey-through-rossmann-stores)をBaselineにすることを
-決定
+[公開notebook](https://www.kaggle.com/omarelgabry/a-journey-through-rossmann-stores)をBaselineにすることにし
+熟読⇨モデル作成前の処理方法は参考になるが、モデルに不満
+
+**20220309**<br>
+xgboostのモデルがしっかりしているnotebookを見つけてそれをbaselineにしたい<br>
+[これ](https://www.kaggle.com/manishleo10/gradient-boosting-machines-gbms-with-xgboost#Problem-Statement)に決定
+Private 0.38045<br>
+Public 0.37078<br>
+めっちゃ低いやん...取りあえずkaggle本見ながら改良して上がらなかったら点数高いnotebookみるわ
