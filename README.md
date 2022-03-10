@@ -105,4 +105,6 @@ Public 0.37078<br>
 **20220310**<br>
 自作baseline作成完了<br>
 public0.6 悪すぎわろた<br>
+Baselineは[お前](https://www.kaggle.com/datasj/xgboost2)に決めた<br>
+gpu(colab)で回さないと時間かかってやべーぞ
 
