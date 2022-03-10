@@ -68,6 +68,24 @@ storeはtrainとStoreを共通キーにして結合するべきって感じ.<br>
 storeはいくつか空欄がある⇨読み込み時にnaにしとくべき<br>
 PromoIntervalはちょっと処理しづらそう→とりあえず解除して良さそうで、notebookの扱い方とかを参考にした方がいい.
 
+## EDA
+![image](https://user-images.githubusercontent.com/69502527/157567785-65ddcc98-085b-4a88-b072-eb22a862bf1a.png)
+![image](https://user-images.githubusercontent.com/69502527/157567846-97174d22-9dfe-47c8-a828-fd7482abadcc.png)
+![image](https://user-images.githubusercontent.com/69502527/157567885-d5797c88-cb01-4a81-931c-f5d1f9bee90b.png)
+![image](https://user-images.githubusercontent.com/69502527/157567948-9c481082-ac9c-41aa-9078-571152b1df2b.png)
+![image](https://user-images.githubusercontent.com/69502527/157568019-069e30ff-41b0-4820-880e-3a68dad4f942.png)
+![image](https://user-images.githubusercontent.com/69502527/157568032-f9e41d81-e448-4b83-9604-9d3bc7d1709e.png)
+![image](https://user-images.githubusercontent.com/69502527/157568051-0706bec8-ba72-4516-bd7f-963c810da4ec.png)
+![image](https://user-images.githubusercontent.com/69502527/157568058-6950b657-2a28-4f0c-9dca-e6e85e5327e3.png)
+![image](https://user-images.githubusercontent.com/69502527/157568104-457f1902-bcf3-4776-a428-6cfdec77505c.png)
+![image](https://user-images.githubusercontent.com/69502527/157568147-68d2def4-5d46-4504-b812-b10fb139cec5.png)
+![image](https://user-images.githubusercontent.com/69502527/157568165-1613198b-d144-44cc-aee7-fec9776a377c.png)
+![image](https://user-images.githubusercontent.com/69502527/157568173-fbfee132-812b-41d2-896f-41e1062eca29.png)
+![image](https://user-images.githubusercontent.com/69502527/157568205-f82d0c4e-11d0-4330-a446-b1a733b67fe0.png)
+![image](https://user-images.githubusercontent.com/69502527/157568212-81e99884-7a7f-4a4f-b536-1b311dc82609.png)
+![image](https://user-images.githubusercontent.com/69502527/157568223-aa97b17f-47c8-4a40-9899-04925740be13.png)
+
+
 ## kaggle日記
 **20220307**<br>
 生データを確認してkaggl本でリークとか評価指標とか読んだ.<br>
@@ -83,3 +101,6 @@ xgboostのモデルがしっかりしているnotebookを見つけてそれをba
 Private 0.38045<br>
 Public 0.37078<br>
 めっちゃ低いやん...取りあえずkaggle本見ながら改良して上がらなかったら点数高いnotebookみるわ
+
+**20220310**<br>
+kaggle本を読みながら特徴量エンジニアリング
